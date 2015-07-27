@@ -1,0 +1,18 @@
+{
+  "name": "kimikimi714/autoloader",
+  "description": "composer autoload test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kimie Furuya",
+      "email": "kimikimi714@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "kimikimi714\\autoloader\\": "autoload/AutoLoad/",
+      "Menue\\Test\\": "psr4/tests/"
+    }
+  }
+}
